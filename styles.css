@@ -1,0 +1,141 @@
+
+
+header,footer{
+    display: block;
+   color:   #007d7b;
+    background-color:white;
+    padding: 40px;
+    text-align: center;
+    }
+
+
+body{
+    display: grid;
+background-color: black;
+justify-content: center;
+}
+
+    html{background-color: black;}
+
+#wrap{background-color: white;}
+
+
+    header{text-align: left;}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#italy{
+height:500px;
+}
+    h2{
+        
+    text-align: center;
+    }
+
+    #hello{
+        text-align:left;
+    }
+
+    p {font-size: 1.25em;}
+    figcaption, label, input, small {font-size: 1em;}
+    nav a {font-size: 1.5em;}
+    h1 {font-size: 3em;}
+    h2 {font-size: 2em;}
+    
+
+#grid-container{
+    justify-content: center;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    text-align: center;
+    max-width: fit-content;
+    justify-content: center;
+}
+
+#hello p{
+    padding-left: 40px;
+}
+
+#hello2 p{
+    padding-left: 40px;
+    padding-bottom: 20px;
+
+}
+
+.center{
+    color:white;
+    text-align: center;
+}
+
+
+nav ul{
+    justify-content: right;
+    list-style: none;
+    display: flex;
+}
+
+nav a{
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+    @media only screen and (max-width: 1300px) {
+        #grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(6, 1fr 1fr);
+        }
+
+        body{max-width: 1300px;}
+
+
+
+        nav ul{
+            justify-content: center;
+            list-style: none;
+            display: flex;
+        }
+
+        #grid-container{
+            margin: auto;
+        }
+
+        }
+
+        @media only screen and (max-width: 880px) {
+            #grid{
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(12, 1fr);
+        
+            }
+
+            body{
+                max-width: 880px;
+            }
+
+              
+#grid-container{
+    margin: auto;
+}
+
+
+            nav ul{
+                justify-content: center;
+                list-style: none;
+                display: flex;
+            }
+
+            }
+            
+
+
+
