@@ -2,7 +2,7 @@
 
 header,footer{
     display: block;
-   color:   #007d7b;
+    color:   #007d7b;
     background-color:white;
     padding: 40px;
     text-align: center;
@@ -10,7 +10,8 @@ header,footer{
 
     #wrap{
         display: grid;
-        max-width: 1510px;
+        max-width: 1300px;
+        margin: auto;
     }
 
     h1{
@@ -46,6 +47,20 @@ justify-content: center;
 }
 
 
+#form #name, #address, #city{
+    width: 75%;
+}
+
+#form #submit{
+    background-color: #007d7b;
+    border: none;
+    padding: 0.5em;
+    color: #ffffff;
+    border-radius: 15px;
+    width: 40%;
+}
+
+
     h2{
         
     text-align: center;
@@ -72,9 +87,11 @@ justify-content: center;
     grid-template-rows: 1fr;
     background-color: white;
     text-align: center;
-    max-width: fit-content;
+    max-width: 1300px;
     justify-content: center;
     padding: 10px;
+    grid-gap:10px;
+    margin: auto;
 }
 
 #hello p{
@@ -86,6 +103,9 @@ justify-content: center;
     padding-bottom: 20px;
 
 }
+
+
+
 
 .center{
     color:white;
@@ -106,11 +126,21 @@ nav a{
     text-decoration: none;
 }
 
+
+@media only screen and (min-width: 1300px){
+
+#grid img{
+    height: 275px;
+}
+
+}
+
     @media only screen and (max-width: 1300px) {
         #grid{
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
+            grid-gap:20px;
         }
 
         body{max-width: 1300px;}
@@ -123,20 +153,19 @@ nav a{
 
         #grid-container{
             margin: auto;
+    
         }
 
 
         #wrap{
             display: grid;
-            max-width: 1014px;
+            max-width: 1034px;
         }
 
+
         }
 
-
-
-
-
+        
 
 
         @media only screen and (max-width: 880px) {
