@@ -8,6 +8,14 @@ header,footer{
     text-align: center;
     }
 
+    #wrap{
+        display: grid;
+        max-width: 1510px;
+    }
+
+    h1{
+        padding-left: 30px;
+    }
 
 body{
     display: grid;
@@ -15,20 +23,29 @@ background-color: black;
 justify-content: center;
 }
 
-    html{background-color: black;}
+#hello-container{
+    max-width: fit-content;
+    justify-content: center;
+}
 
-#wrap{background-color: white;}
+    html{
+        background-color: black;
+    }
 
+#wrap{
+    background-color: white;
+}
 
-    header{text-align: left;}
+    header{
+        text-align: left;
+        
+    }
 
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#italy{
-height:500px;
-}
+
     h2{
         
     text-align: center;
@@ -52,11 +69,12 @@ height:500px;
 #grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
     background-color: white;
     text-align: center;
     max-width: fit-content;
     justify-content: center;
+    padding: 10px;
 }
 
 #hello p{
@@ -79,6 +97,7 @@ nav ul{
     justify-content: right;
     list-style: none;
     display: flex;
+    padding-right: 40px;
 }
 
 nav a{
@@ -91,12 +110,10 @@ nav a{
         #grid{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: repeat(6, 1fr 1fr);
+            grid-template-rows: 1fr;
         }
 
         body{max-width: 1300px;}
-
-
 
         nav ul{
             justify-content: center;
@@ -108,14 +125,25 @@ nav a{
             margin: auto;
         }
 
+
+        #wrap{
+            display: grid;
+            max-width: 1014px;
         }
+
+        }
+
+
+
+
+
+
 
         @media only screen and (max-width: 880px) {
             #grid{
                 display: grid;
                 grid-template-columns: 1fr;
-                grid-template-rows: repeat(12, 1fr);
-        
+                grid-template-rows: 1fr;
             }
 
             body{
@@ -123,15 +151,25 @@ nav a{
             }
 
               
-#grid-container{
-    margin: auto;
-}
+            #grid-container{
+            margin: auto;
+            }
 
+
+      
 
             nav ul{
                 justify-content: center;
                 list-style: none;
                 display: flex;
+            }
+
+
+
+            #wrap{
+                display: grid;
+                max-width: 517px;
+                margin: auto;
             }
 
             }
