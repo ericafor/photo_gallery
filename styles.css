@@ -185,24 +185,25 @@ nav a{
 }
 
 
+
 @media only screen and (min-width: 1300px){
 
 #grid img{
     height: 275px;
 }
 
-#grid #iran img{
+#grid #Iran img{
 height: 612px;
 }
 
-#grid #ire img{
+#grid #Ire img{
     height: 612px;
     }
 
-    #grid #italy img{
-        height: 612px;
-        }
 
+    #grid #W img{
+        width: 413px;
+    }
 
         [href="#TOP"] {
             position: relative;
@@ -212,7 +213,15 @@ height: 612px;
             background-color: #000000;
         }
 
+        #grid #Italy img{
+            height: 612px;
+            width: 413px;
+        }
+
 }
+
+
+
 
     @media only screen and (max-width: 1300px) {
         #grid{
@@ -220,6 +229,18 @@ height: 612px;
             grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr;
             grid-gap:20px;
+        }
+
+
+        #grid #W img{
+            height: 331px;
+            width: 497px;
+        }
+
+
+        #grid #Italy img{
+            height: 745px;
+            width: 497px;
         }
 
         body{max-width: 1300px;}
@@ -231,12 +252,10 @@ height: 612px;
         }
 
 
-
         #grid-container{
             margin: auto;
     
         }
-
 
         #wrap{
             display: grid;
@@ -261,7 +280,7 @@ height: 612px;
         .w{
             color: white;
             position: relative;
-            bottom: 348px;
+            bottom: 328px;
             left: 16px;
         }
 
@@ -280,6 +299,7 @@ height: 612px;
             left: 16px;
         }
 
+        
 
         [href="#TOP"] {
             position: relative;
