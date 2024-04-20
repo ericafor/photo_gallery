@@ -5,7 +5,6 @@ header{
     background-color:white;
     padding: 40px;
     text-align: center;
-    margin: auto;
     }
 
 
@@ -96,10 +95,17 @@ color: #007d7b;
 }
 
 
-.i, .ire, .r, .s, .uk, .usa{
+.r, .s, .uk, .usa{
     color: black;
     position: relative;
     bottom: 270px;
+    left: 16px;
+}
+
+.i, .ire{
+    color: black;
+    position: relative;
+    bottom: 608px;
     left: 16px;
 }
 
@@ -165,7 +171,6 @@ color: #007d7b;
     text-align: center;
 }
 
-
 nav ul{
     justify-content: right;
     list-style: none;
@@ -185,6 +190,27 @@ nav a{
 #grid img{
     height: 275px;
 }
+
+#grid #iran img{
+height: 612px;
+}
+
+#grid #ire img{
+    height: 612px;
+    }
+
+    #grid #italy img{
+        height: 612px;
+        }
+
+
+        [href="#TOP"] {
+            position: relative;
+            bottom: -2430px;
+            right: -5px; 
+            border: 1px solid white;
+            background-color: #000000;
+        }
 
 }
 
@@ -266,7 +292,6 @@ nav a{
         }
 
 
-
         @media only screen and (max-width: 880px) {
             #grid{
                 display: grid;
@@ -278,10 +303,10 @@ nav a{
                 max-width: 880px;
             }
 
-              
             #grid-container{
             margin: auto;
             }
+
 
 
         header{
@@ -289,6 +314,7 @@ nav a{
             max-width: 441px;
             font-size: 14px;
             text-align: center;
+            margin: auto;
             }
 
             nav ul{
@@ -308,7 +334,6 @@ nav a{
                 margin: auto;
             }
 
-            
 
             [href="#TOP"] {
                 position: relative;
