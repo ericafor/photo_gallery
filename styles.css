@@ -1,11 +1,11 @@
 
-
 header{
     display: block;
     color:  #007d7b;
     background-color:white;
     padding: 40px;
     text-align: center;
+    margin: auto;
     }
 
 
@@ -53,7 +53,6 @@ justify-content: center;
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
 
 .center #form label {
@@ -153,6 +152,12 @@ color: #007d7b;
 
 }
 
+[href="#TOP"] {
+    position: relative;
+    bottom: -2076px;
+    border: .75px solid white;
+    background-color: #000000;
+}
 
 
 .center{
@@ -165,7 +170,7 @@ nav ul{
     justify-content: right;
     list-style: none;
     display: flex;
-    padding-right: 40px;
+    padding-right: 3px;
 }
 
 nav a{
@@ -199,6 +204,8 @@ nav a{
             display: flex;
         }
 
+
+
         #grid-container{
             margin: auto;
     
@@ -210,6 +217,9 @@ nav a{
             max-width: 1034px;
         }
 
+        nav ul{
+            padding-left: 115px;
+        }
 
         .center #form label {
             margin-left: -530px;
@@ -237,7 +247,6 @@ nav a{
         }
 
 
-
         .i, .ire{
             color: black;
             position: relative;
@@ -245,8 +254,14 @@ nav a{
             left: 16px;
         }
 
-        
 
+        [href="#TOP"] {
+            position: relative;
+            bottom: -4084px;
+            right: -200px;
+            border: 1px solid white;
+            background-color: #000000;
+        }
 
         }
 
@@ -276,7 +291,6 @@ nav a{
             text-align: center;
             }
 
-
             nav ul{
                 justify-content: center;
                 list-style: none;
@@ -293,6 +307,17 @@ nav a{
                 max-width: 517px;
                 margin: auto;
             }
+
+            
+
+            [href="#TOP"] {
+                position: relative;
+                bottom: -6810px;
+                right: -18px;
+                border: 1px solid white;
+                background-color: #000000;
+            }
+            
 
             }
             
