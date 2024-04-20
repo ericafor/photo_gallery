@@ -1,11 +1,19 @@
 
 
-header,footer{
+header{
     display: block;
-    color:   #007d7b;
+    color:  #007d7b;
     background-color:white;
     padding: 40px;
     text-align: center;
+    }
+
+
+    footer{
+        background-color: black;
+        text-align: center;
+        color: white;
+        padding: 50px;
     }
 
     #wrap{
@@ -47,8 +55,14 @@ justify-content: center;
 }
 
 
+
+.center #form label {
+    margin-left: -680px;
+}
+
+
 #form #name, #address, #city{
-    width: 75%;
+    width: 60%;
 }
 
 #form #submit{
@@ -57,8 +71,16 @@ justify-content: center;
     padding: 0.5em;
     color: #ffffff;
     border-radius: 15px;
-    width: 40%;
+    width: 35%;
 }
+
+input::placeholder{
+font-weight: bold;
+color: #007d7b;
+}
+
+
+
 
 
     h2{
@@ -103,7 +125,6 @@ justify-content: center;
     padding-bottom: 20px;
 
 }
-
 
 
 
@@ -163,6 +184,11 @@ nav a{
         }
 
 
+        .center #form label {
+            margin-left: -530px;
+        }
+
+
         }
 
         
@@ -193,7 +219,9 @@ nav a{
                 display: flex;
             }
 
-
+            .center #form label {
+                margin-left: -235px;
+            }
 
             #wrap{
                 display: grid;
@@ -203,6 +231,4 @@ nav a{
 
             }
             
-
-
 
